@@ -1,0 +1,5 @@
+platforms/android/.gradle/
+platforms/android/cordova/build
+platforms/android/CordovaLib/build
+platforms/browser/cordova/build
+platforms/browser/build
