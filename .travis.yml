@@ -1,0 +1,22 @@
+language: android
+android:
+  components:
+    - android-23
+addons:
+  apt:
+    packages:
+    - jq
+    - imagemagick
+
+before_install:
+- make
+
+script:
+- make -C src android
+
+#after_success:
+#- ./scripts/zapier_zap.sh success
+#
+#after_failure:
+#- ./scripts/zapier_zap.sh failure
+
