@@ -1,5 +1,6 @@
-platforms/android/.gradle/
-platforms/android/cordova/build
-platforms/android/CordovaLib/build
-platforms/browser/cordova/build
-platforms/browser/build
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+node_modules/
+platforms/
+plugins/
