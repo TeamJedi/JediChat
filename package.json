@@ -1,0 +1,24 @@
+{
+  "name": "JediChat",
+  "version": "1.0.0",
+  "description": "The Jedi Chat app - communicates with peers using WebRTC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "cordova": "^6.3.1",
+    "cordova-common": "^1.4.1",
+    "cordova-icon": "^0.9.0",
+    "elementtree": "^0.1.6",
+    "imagemagick": "^0.1.3",
+    "nopt": "^3.0.6",
+    "properties-parser": "^0.3.1",
+    "q": "^1.4.1",
+    "shelljs": "^0.7.4"
+  }
+}
