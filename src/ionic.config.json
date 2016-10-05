@@ -1,4 +1,13 @@
 {
   "name": "JediChat",
-  "app_id": "com.github.TeamJedi.JediChat"
+  "app_id": "",
+  "v2": true,
+  "typescript": true,
+  "proxies": [
+    {
+      "path": "/olsrdjson/",
+      "proxyUrl": "http://raspberrypi.local:9090/"
+    }
+  ]
+
 }
